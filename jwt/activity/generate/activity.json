@@ -1,12 +1,19 @@
 {
   "name": "generateJWT",
+  "version": "0.0.1",
+  "title": "Generate JWT",
   "author": "DET",
   "type": "flogo:activity",
-  "ref": "",
-  "version": "0.1.5",
-  "title": "Generate JWT",
-  "description": "Activity to Create (sign) a JWT",
-  "homepage": "",
+   
+  "display": {
+     "category": "JWT",
+     "visible": true,
+     "smallIcon": "",
+     "largeIcon": "",
+     "description": "Activity to Generate JSON Web Token"
+  },
+
+  "ref": "https://github.com/Pradhany/flogo-extensions",
   "inputs":[
     {
       "name": "payload",
