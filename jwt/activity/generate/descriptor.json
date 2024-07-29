@@ -1,0 +1,38 @@
+{
+  "name": "generateJWT",
+  "author": "DET",
+  "type": "flogo:activity",
+  "ref": "",
+  "version": "0.1.5",
+  "title": "Generate JWT",
+  "description": "Activity to Create (sign) a JWT",
+  "homepage": "",
+  "inputs":[
+    {
+      "name": "payload",
+      "type": "string"
+    },
+    {
+      "name": "secret",
+      "type": "string"
+    },
+    {
+      "name": "algorithm",
+      "type": "string"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "token",
+      "type": "string"
+    },
+    {
+      "name": "valid",
+      "type": "boolean"
+    },
+    {
+      "name": "claims",
+      "type": "string"
+    }
+  ]
+}
