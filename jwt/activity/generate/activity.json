@@ -13,7 +13,7 @@
      "description": "Activity to Generate JSON Web Token"
   },
 
-  "ref": "https://github.com/Pradhany/flogo-extensions",
+  "ref": "https://github.com/Pradhany/flogo-extensions/tree/main/jwt/activity/generate",
   "inputs":[
     {
       "name": "payload",
